@@ -1,0 +1,32 @@
+.container01 {
+  background-color: #87DD43;
+  height: 300px;
+}
+
+#heading01 {
+  text-align: center;
+  color: white;
+  padding-top: 130px;
+}
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#triangleOutput {
+  display: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container02 {
+  background-color: #AFCA9A;
+  height: 250px;
+}
+
+#footerText {
+  text-align: center;
+  color: white;
+  padding-top: 118px;
+}
