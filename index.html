@@ -11,6 +11,45 @@
   <div class="container-fluid container01">
     <h1 id="heading01">Triangle Tracker</h1>
   </div>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h1>Fill in the measurements in the form below</h1>
+        <p>Once you input the lengths of a triangle you will get to know if your measurements give you a triangle that is either an equilateral, isosceles, scalene or NOT a triangle.</p>
+        <form id="triangleForm">
+          <div class="form-group">
+            <label for="side01">Side 1</label>
+            <input id="side01" class="form-control" type="text" required>
+          </div>
+          <div class="form-group">
+            <label for="side02">Side 2</label>
+            <input id="side02" class="form-control" type="text" required>
+          </div>
+          <div class="fom-group">
+            <label for="side03">Side 3</label>
+            <input id="side03" class="form-control" type="text" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <p>Here is your output!</p>
+      <div id="equilateralTriangle">
+        <p>This is an equilateral triangle.</p>
+      </div>
+      <div id="isoscelesTriangle">
+        <p>This is an isosceles triangle.</p>
+      </div>
+      <div id="scaleneTriangle">
+        <p>This is a scalene triangle.</p>
+      </div>
+      <div id="notTriangle">
+        <p>The measurements can't give a triangle. Try other measurements.</p>
+      </div>
+    </div>
+  </div>
   <div class="container-fluid container02">
     <div class="footer">
       <p id="footerText">&copy; 2021 Triangle Footer</p>
