@@ -19,23 +19,22 @@
         <form id="triangleForm">
           <div class="form-group">
             <label for="side01">Side 1</label>
-            <input id="side01" class="form-control" type="text" required>
+            <input id="side01" class="form-control" type="number" required>
           </div>
           <div class="form-group">
             <label for="side02">Side 2</label>
-            <input id="side02" class="form-control" type="text" required>
+            <input id="side02" class="form-control" type="number" required>
           </div>
           <div class="fom-group">
             <label for="side03">Side 3</label>
-            <input id="side03" class="form-control" type="text" required>
+            <input id="side03" class="form-control" type="number" required>
           </div>
-
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
     </div>
-    <div class="container">
-      <p>Here is your output!</p>
+    <div class="container" id="triangleOutput">
+      <p>Here is the result!</p>
       <div id="equilateralTriangle">
         <p>This is an equilateral triangle.</p>
       </div>
