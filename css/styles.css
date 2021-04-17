@@ -14,6 +14,10 @@
   margin-bottom: 50px;
 }
 
+#submit {
+  margin-top: 20px;
+}
+
 #triangleOutput {
   display: none;
   margin-top: 50px;
