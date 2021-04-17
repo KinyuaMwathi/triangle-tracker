@@ -17,24 +17,16 @@ $(document).ready(function() {
   
     if (side01 === side02 && side01 === side03 && side02 === side03) {
       $("#equilateralTriangle").show();
-      $("#isoscelesTriangle").hide();
-      $("#scaleneTriangle").hide();
-      $("#notTriangle").hide();
+      $("#isoscelesTriangle, #scaleneTriangle, #notTriangle").hide();
     } else if(side01 === side02 && side01 !== side03 || side01 === side03 && side01 !== side02 || side02 === side03 && side02 !== side01) {
       $("#isoscelesTriangle").show();
-      $("#equilateralTriangle").hide();
-      $("#scaleneTriangle").hide();
-      $("#notTriangle").hide();
+      $("#equilateralTriangle, #scaleneTriangle, #notTriangle").hide();
     } else if(side01 !== side02 && side01 !== side03 && side02 !== side03) {
       $("#scaleneTriangle").show();
-      $("#equilateralTriangle").hide();
-      $("#isoscelesTriangle").hide();
-      $("#notTriangle").hide();
+      $("#equilateralTriangle, #isoscelesTriangle, #notTriangle").hide();
     } else if(sum01 <= side03 || sum02 <= side03 || sum03 <= side03){
       $("#notTriangle").show();
-      $("#equilateralTriangle").hide();
-      $("#isoscelesTriangle").hide();
-      $("#scaleneTriangle").hide();
+      $("#equilateralTriangle, #isoscelesTriangle, #scaleneTriangle").hide();
     }
 
     $("#triangleOutput").show();
